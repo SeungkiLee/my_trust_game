@@ -43,6 +43,7 @@ class Group(BaseGroup):
     p1.payoff = Constants.endowment - self.sent_amount + self.sent_back_amount
     p2.payoff = self.sent_amount * Constants.multiplication_factor - self.sent_back_amount
 
-
 class Player(BasePlayer):
-    pass
+
+    sent_amount = models.CurrencyField()
+    sent_back_amount = models.CurrencyField()
