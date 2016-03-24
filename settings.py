@@ -129,14 +129,14 @@ SESSION_CONFIG_DEFAULTS = {
 
 SESSION_CONFIGS = [
     {
-    'name': 'my_trust',
-    'display_name': "My Trust Game (simple version from tutorial)",
-    'num_demo_participants': 2,
-    'app_sequence': ['my_trust'],
+        'name': 'my_trust',
+        'display_name': "My Trust Game (made by Seungki)",
+        'num_demo_participants': 2,
+        'app_sequence': ['my_trust'],
     },
     {
         'name': 'my_matching_pennies',
-        'display_name': "My Matching Pennies (tutorial version)",
+        'display_name': "My Matching Pennies (Seungki)",
         'num_demo_participants': 2,
         'app_sequence': [
             'my_matching_pennies',
