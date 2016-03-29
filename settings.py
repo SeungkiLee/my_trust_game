@@ -136,7 +136,6 @@ SESSION_CONFIGS = [
             'my_matching_pennies',
         ],
     },
-    '''
     {
         'name': 'public_goods',
         'display_name': "Public Goods",
@@ -207,13 +206,13 @@ SESSION_CONFIGS = [
         'app_sequence': [
             'battle_of_the_sexes', 'payment_info'
         ],
-    },'''
+    },
     {
         'name': 'vickrey_auction',
         'display_name': "Vickrey Auction",
         'num_demo_participants': 3,
         'app_sequence': ['vickrey_auction', 'payment_info'],
-    },'''
+    },
     {
         'name': 'volunteer_dilemma',
         'display_name': "Volunteer's Dilemma",
@@ -312,7 +311,7 @@ SESSION_CONFIGS = [
         'app_sequence': [
             'lemon_market', 'payment_info'
         ],
-    },'''
+    },
 ]
 
 # don't put anything after this point.
