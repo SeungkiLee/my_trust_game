@@ -45,5 +45,7 @@ class Group(BaseGroup):
 
 class Player(BasePlayer):
 
-    sent_amount = models.CurrencyField()
+    sent_amount = models.CurrencyField(
+    choices=currency_range(0, Constants.endowment, c(1)),
+    )
     sent_back_amount = models.CurrencyField()

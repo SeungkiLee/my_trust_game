@@ -137,6 +137,12 @@ SESSION_CONFIGS = [
         ],
     },
     {
+    'name': 'my_trust',
+    'display_name': "My Trust Game (by SLee)",
+    'num_demo_participants': 2,
+    'app_sequence': ['my_trust'],
+    },
+    {
         'name': 'public_goods',
         'display_name': "Public Goods",
         'num_demo_participants': 3,
