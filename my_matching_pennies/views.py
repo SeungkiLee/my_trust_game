@@ -37,7 +37,7 @@ class ResultsSummary(Page):
     def vars_for_template(self):
 
         return {
-            'totla_payoff': sum([p.payoff
+            'total_payoff': sum([p.payoff
                                  for p in self.player.in_all_rounds()]),
             'paying_round': self.session.vars['paying_round'],
             'player_in_all_rounds': self.player.in_all_rounds(),

@@ -33,7 +33,7 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect()    #providing a form to choose
     )
 
-    is_winner = models.BooleanField()   #record if this player won this round
+    is_winner = models.BooleanField()   #record 1, if this player won this round
 
     def role(self): #defining a role of the player
         if self.id_in_group ==1:    #id_in_group: an intager which indicates each player's attribute
